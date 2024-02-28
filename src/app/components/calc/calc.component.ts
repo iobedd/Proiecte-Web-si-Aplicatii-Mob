@@ -4,8 +4,7 @@ import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule } from '@angul
 @Component({
   selector: 'app-calc',
   standalone: true,
-  imports: [FormsModule, ReactiveFormsModule]
-],
+  imports: [FormsModule, ReactiveFormsModule],
   templateUrl: './calc.component.html',
   styleUrl: './calc.component.scss'
 })
